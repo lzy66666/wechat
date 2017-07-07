@@ -1,6 +1,60 @@
 /**index.wxss**/
 .userinfo_no_back{
-  width: 128rpx;
-  height: 128rpx;
+  width: 200rpx;
+  height: 200rpx;
   border-radius: 0px;
+  margin-bottom: 10px;
+}
+.userinfo {
+  width: 100%;
+}
+.menu_title{
+  font-size: 14px;
+}
+.menu_icon{
+  width: 16px;
+  height: 16px;
+}
+.games_content{
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-flow:wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.gamelist,.game_name_small{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.gamelist{
+  width: 32%;
+  margin: 8px 0;
+}
+.menu_icon{
+  margin-right: 5px;
+}
+.seach{
+  border: 1px solid;
+  border-radius: 6px;
+  height: 20px;
+  font-size: 12px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.title{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }

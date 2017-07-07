@@ -2,38 +2,3 @@
 .container{
   padding: 30rpx 50rpx;
 }
-.userinfo {
-  width: 100%;
-}
-.menu_title{
-  font-size: 14px;
-}
-.menu_icon{
-  width: 16px;
-  height: 16px;
-}
-.games_content{
-  padding: 10px 0px;
-  display: flex;
-  flex-direction: row;
-  flex-flow:wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  border-radius: 50%;
-}
-.game_name_small{
-  font-size: 12px;
-  text-align: center;
-}
-.seach{
-  border: 1px solid;
-  border-radius: 6px;
-  height: 20px;
-  font-size: 12px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-}

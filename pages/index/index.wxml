@@ -8,8 +8,10 @@
     </view>
     <view class="games_content">
       <view class="gamelist" wx:for="{{item.gameList}}" wx:for-item="gameList">
-        <image class="{{ gameList.isback == true ? 'userinfo-avatar' : 'userinfo_no_back' }}" bindtap=" {{ gameList.aType == 1? tapJump : tapTips }} " src="{{gameList.icon}}"></image>
-        <navigator url="{{gameList.pageUrl}}" class="game_name_small"> {{gameList.name}} </navigator >
+        <navigator url="{{gameList.pageUrl}}" class="game_name_small">
+          <image class="{{ gameList.isback == true ? 'userinfo-avatar' : 'userinfo_no_back' }}" bindtap=" {{ gameList.aType == 1? tapJump : tapTips }} " src="{{gameList.icon}}"></image>
+         <text>{{gameList.name}} </text>
+        </navigator >
       </view>
     </view>
   </view>
