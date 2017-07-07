@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <input class="seach" placeholder="请输入游戏" />
+  <view class="userinfo" wx:for="{{content}}" wx:for-item="item">
+    <view class="title">
+      <image src="{{item.icon}}" class="menu_icon"></image>
+      <text class="menu_title">{{item.text}}</text>
+    </view>
+    <view class="games_content">
+      <view class="gamelist" wx:for="{{item.gameList}}" wx:for-item="gameList">
+        <image class="{{ gameList.isback == true ? 'userinfo-avatar' : 'userinfo_no_back' }}" bindtap=" {{ gameList.aType == 1? tapJump : tapTips }} " src="{{gameList.icon}}"></image>
+        <navigator url="{{gameList.pageUrl}}" class="game_name_small"> {{gameList.name}} </navigator >
+      </view>
+    </view>
+  </view>
+</view>

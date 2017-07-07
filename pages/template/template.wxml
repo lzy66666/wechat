@@ -1,0 +1,20 @@
+<!--template.wxml-->
+
+<!--评分模版-->
+<template name="liker">
+  <view class="liker_info">
+    <view class="stars">
+      <image src="/images/stars.png" wx:for="{{itemlist.stars}}"></image>
+      {{itemlist.stars}} 
+    </view>
+  </view>
+  
+</template>
+
+
+<template name="text">
+  <view class="text">
+    {{itemlist.text}}
+    <navigator url="/pages/index" hover-class="navigator-hover" class="more">MORE</navigator>
+  </view>
+</template>

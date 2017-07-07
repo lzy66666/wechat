@@ -1,0 +1,6 @@
+/**index.wxss**/
+.userinfo_no_back{
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 0px;
+}

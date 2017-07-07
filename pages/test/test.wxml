@@ -1,0 +1,15 @@
+<!--test.wxml-->
+<import src="../template/template.wxml" />
+<view class="container ">
+  <swiper class="banner" interval="1000" duration="500" bindchange="swiperChange">
+    <swiper-item class="bannerlist" wx:for="{{banner}}" wx:for-item="itemlist" >
+      <image src="{{itemlist.bannerImagelist}}" class="banner_games"></image>
+      <text class="gameName"> {{ itemlist.bannerTitle }} </text>
+      <template is="liker" data="{{itemlist}}"></template>
+      <view class="gameContent">
+        <template is="text" data="{{itemlist}}"></template>
+        <navigator url="/pages/index" hover-class="navigator-hover" class="more">MORE</navigator>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

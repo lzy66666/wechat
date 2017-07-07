@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/template/template"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "VRLeS",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "品牌",
+        "iconPath": "images/leke.png",
+        "selectedIconPath": "images/leke_focus.png"
+      },
+      {
+        "pagePath": "pages/brand/group/group",
+        "text": "分类",
+        "iconPath": "images/group.png",
+        "selectedIconPath": "images/group_focus.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "images/discovery.png",
+        "selectedIconPath": "images/discovery_focus.png"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "text": "商城",
+        "iconPath": "images/store.png",
+        "selectedIconPath": "images/store_focus.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me_focus.png"
+      }
+    ]
+  }
+}
